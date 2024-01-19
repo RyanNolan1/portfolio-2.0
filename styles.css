@@ -7,3 +7,28 @@
 body {
     background-color: #151515;
 }
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:1rem;
+}
+
+a {
+    color:red;
+}
+
+.container {
+    margin:0 auto;
+    max-width:70rem;
+    background-color: green;
+}
+
+.portfolio-name {
+    flex-grow: 1;
+}
+
+.social-links {
+    flex-shrink:0;
+}
