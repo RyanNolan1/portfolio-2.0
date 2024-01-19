@@ -12,22 +12,23 @@ body {
 nav {
     display:flex;
     justify-content: space-between;
-    flex-direction: row;
     gap:1rem;
+    align-items: center;
 }
 
 a {
-    color:red;
+    color:white;
+    padding:1rem 0;
 }
 
 .container {
     margin:0 auto;
     max-width:70rem;
-    background-color: green;
 }
 
 .portfolio-name {
     flex-grow: 1;
+    font-size:2rem;
 }
 
 .social-links {
