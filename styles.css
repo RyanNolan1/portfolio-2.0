@@ -35,3 +35,8 @@ a {
 .social-links {
     flex-shrink:0;
 }
+
+.social-links:hover svg path {
+    transition: 0.6s;
+    fill:#4ee1a0; 
+}
