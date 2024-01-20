@@ -142,3 +142,7 @@ button:hover {
   transition: 0.6s;
   fill: #4ee1a0;
 }
+
+.linked-in-icon {
+    margin-right:1rem;
+}
