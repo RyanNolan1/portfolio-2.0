@@ -15,9 +15,9 @@ nav {
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
-  max-width:70rem;
-  width:90%;
-  margin:0 auto;
+  max-width: 70rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 a {
@@ -33,14 +33,13 @@ header {
   align-items: center;
   position: relative;
   justify-content: center;
-  /* justify-content: flex-end; */
 }
 
 .circles-image {
-    position: absolute;
-    top:8rem;;
-    left:-15rem;
-    z-index:1;
+  position: absolute;
+  top: 8rem;
+  left: -15rem;
+  z-index: 1;
 }
 
 h1 {
@@ -52,39 +51,39 @@ h1 {
 p {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color:rgb(217, 217, 217);
+  color: rgb(217, 217, 217);
 }
 
 button {
-    background:none;
-    border:none;
-    font-size: 1.125rem;
-    color:white;
-    font-family: "Space Grotesk", sans-serif;
-    transition: 0.6s;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  transition: 0.6s;
 }
 
 button:hover {
-   cursor:pointer;
-   color:#4ee1a0; 
+  cursor: pointer;
+  color: #4ee1a0;
 }
 
 .header-image {
   width: 27.8125rem;
   height: 45rem;
-  background-color: rgb(49, 49, 49);
+  background-color: #242424;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .header-content-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    background-color: blue;
-    position: absolute;
-    left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: blue;
+  position: absolute;
+  left: 0;
 }
 
 .header-content-container h1 {
@@ -112,7 +111,7 @@ button:hover {
   width: 90%;
   display: flex;
   justify-content: flex-end;
-  align-items: center; 
+  align-items: center;
   background-color: pink;
   position: relative;
 }
@@ -120,7 +119,7 @@ button:hover {
 .portfolio-name {
   flex-grow: 1;
   font-size: 2rem;
-  font-weight:900;
+  font-weight: 900;
 }
 
 .social-links {
