@@ -262,4 +262,11 @@ button:hover {
   .circle-image {
     display: none;
   }
+
+  .skills-grid {
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:2rem;
+  }
 }
