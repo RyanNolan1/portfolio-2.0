@@ -26,8 +26,7 @@ a {
 }
 
 header {
-  min-height: 45rem;
-  background-color: rgb(255, 0, 0);
+  min-height: 40rem;
   margin-top: -4.5rem;
   display: flex;
   align-items: center;
@@ -70,7 +69,7 @@ button:hover {
 
 .header-image {
   width: 27.8125rem;
-  height: 45rem;
+  height: 40rem;
   background-color: #242424;
   display: flex;
   justify-content: center;
@@ -79,25 +78,25 @@ button:hover {
 }
 
 .ryan-nolan-image {
-align-self: flex-end;
+  align-self: flex-end;
+  width: 100%;
 }
 
 .circle-image {
-    position: absolute;
-    left:-4rem;
-    bottom:6rem;;
-    z-index:3;
-  }
+  position: absolute;
+  left: -4rem;
+  bottom: 6rem;
+  z-index: 3;
+}
 
 .header-content-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background-color: blue;
   position: absolute;
   left: 0;
-  z-index:2;
-  width:65%;
+  z-index: 2;
+  width: 65%;
 }
 
 .header-content-container h1 {
@@ -126,7 +125,6 @@ align-self: flex-end;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: pink;
   position: relative;
 }
 
