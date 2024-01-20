@@ -154,18 +154,29 @@ button:hover {
 }
 
 .skills {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.skills-container {
   max-width: 70rem;
   margin: 0 auto;
-  padding-top:4rem;
-  padding-bottom:8rem;
-  width:90%;
+  width: 90%;
+}
+
+.skills-pattern-image {
+  position: absolute;
+  top: 8rem;
+  right: -16rem;
+  position: absolute;
 }
 
 .skills-grid {
   padding-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap:2rem;
+  gap: 2rem;
 }
 
 .skills-grid div {
@@ -253,7 +264,7 @@ button:hover {
     padding-top: 4rem;
     display: grid;
     grid-template-columns: 1fr;
-    gap:2rem;
+    gap: 2rem;
   }
 }
 
