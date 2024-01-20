@@ -145,19 +145,40 @@ button:hover {
 }
 
 .social-links-container {
-    z-index:5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    margin-right:1rem;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
 }
 
+@media (max-width: 1024px) {
+  header {
+    margin-top: -5.8rem;
+    height: 37.5rem;
+  }
 
+  h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .header-image {
+    width: 20.75rem;
+    height: 37.5rem;
+  }
+
+  .circle-image {
+    position: absolute;
+    left: 16rem;
+    bottom: 3rem;
+  }
+}
 
 @media (max-width: 768px) {
   header {
-    margin-top:-5.3rem;
+    margin-top: -5.3rem;
   }
 
   .header-container {
@@ -191,17 +212,16 @@ button:hover {
     height: 26rem;
   }
 
+  .social-links-container {
+    gap: 1rem;
+    margin-right: 0;
+  }
+
   .circle-image {
     position: absolute;
     left: 12rem;
     bottom: 2rem;
   }
-
-  .social-links-container {
-    gap:1rem;
-    margin-right: 0;
-}
-
   nav {
     flex-direction: column;
   }
@@ -212,15 +232,15 @@ button:hover {
 }
 
 @media (max-width: 375px) {
-    .header-image {
-        width:80%;
-    }
+  .header-image {
+    width: 80%;
+  }
 
-    .patterns-image {
-        display: none;
-      }
+  .patterns-image {
+    display: none;
+  }
 
-    .circle-image {
-       display: none;
-      }
+  .circle-image {
+    display: none;
+  }
 }
