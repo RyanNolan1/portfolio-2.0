@@ -50,6 +50,12 @@ button {
     font-size: 1.125rem;
     color:white;
     font-family: "Space Grotesk", sans-serif;
+    transition: 0.6s;
+}
+
+button:hover {
+   cursor:pointer;
+   color:#4ee1a0; 
 }
 
 .header-image {
