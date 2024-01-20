@@ -206,3 +206,17 @@ button:hover {
     padding: 0rem 0;
   }
 }
+
+@media (max-width: 375px) {
+    .header-image {
+        width:80%;
+    }
+
+    .patterns-image {
+        display: none;
+      }
+
+    .circle-image {
+       display: none;
+      }
+}
