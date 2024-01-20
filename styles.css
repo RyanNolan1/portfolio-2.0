@@ -57,6 +57,14 @@ p {
   gap: 2rem;
 }
 
+.header-content-container h1 {
+   max-width:44rem;
+}
+
+.header-content-container p {
+    max-width:28rem;
+}
+
 .contact-me-button {
   border-bottom: 2px solid #4ee1a0;
   width: fit-content;
