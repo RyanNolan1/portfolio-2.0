@@ -80,13 +80,14 @@ button:hover {
 .ryan-nolan-image {
   align-self: flex-end;
   width: 100%;
+  z-index: 4;
 }
 
 .circle-image {
   position: absolute;
   left: -4rem;
   bottom: 6rem;
-  z-index: 3;
+  z-index: 5;
 }
 
 .header-content-container {
@@ -150,7 +151,7 @@ button:hover {
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column-reverse;
-    gap:3rem;
+    gap: 3rem;
   }
 
   .header-content-container {
@@ -172,5 +173,16 @@ button:hover {
     font-size: 3rem;
     line-height: 3.5rem;
     text-align: center;
+  }
+
+  .header-image {
+    width: 16rem;
+    height: 26rem;
+  }
+
+  .circle-image {
+    position: absolute;
+    left: 12rem;
+    bottom: 2rem;
   }
 }
