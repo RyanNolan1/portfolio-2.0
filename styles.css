@@ -69,14 +69,6 @@ button:hover {
    color:#4ee1a0; 
 }
 
-.header-content-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  /* position: absolute; */
-  left: 0;
-}
-
 .header-image {
   width: 27.8125rem;
   height: 45rem;
@@ -86,6 +78,14 @@ button:hover {
   align-items: center;
 }
 
+.header-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+}
 
 .header-content-container h1 {
   max-width: 50rem;
@@ -106,14 +106,15 @@ button:hover {
   padding-bottom: 0.5rem;
 }
 
-.container {
+.header-container {
   margin: 0 auto;
   max-width: 70rem;
   width: 90%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
+  justify-content: flex-end;
+  align-items: center; 
+  background-color: pink;
+  position: relative;
 }
 
 .portfolio-name {
