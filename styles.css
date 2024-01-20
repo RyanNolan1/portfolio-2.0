@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 16px;
 }
 
 body {
@@ -62,11 +61,16 @@ p {
 }
 
 .header-content-container h1 {
-   max-width:50rem;
+  max-width: 50rem;
+}
+
+.underlined-header-text {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
 }
 
 .header-content-container p {
-    max-width:28rem;
+  max-width: 28rem;
 }
 
 .contact-me-button {
