@@ -153,6 +153,12 @@ button:hover {
   margin-right: 1rem;
 }
 
+.skills {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
 @media (max-width: 1024px) {
   header {
     margin-top: -5.8rem;
