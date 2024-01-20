@@ -93,6 +93,7 @@ button:hover {
   position: absolute;
   left: 0;
   z-index:2;
+  width:65%;
 }
 
 .header-content-container h1 {
