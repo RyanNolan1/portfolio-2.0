@@ -29,6 +29,8 @@ header {
   margin-top: -4.5rem;
   display: flex;
   align-items: center;
+  position: relative;
+  justify-content: flex-end;
 }
 
 h1 {
@@ -55,10 +57,12 @@ p {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  position: absolute;
+  left: 0;
 }
 
 .header-content-container h1 {
-   max-width:44rem;
+   max-width:50rem;
 }
 
 .header-content-container p {
