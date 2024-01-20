@@ -78,6 +78,10 @@ button:hover {
   position: relative;
 }
 
+.ryan-nolan-image {
+align-self: flex-end;
+}
+
 .circle-image {
     position: absolute;
     left:-4rem;
