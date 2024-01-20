@@ -150,7 +150,10 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap:1rem;
+    margin-right:1rem;
 }
+
+
 
 @media (max-width: 768px) {
   header {
@@ -196,6 +199,7 @@ button:hover {
 
   .social-links-container {
     gap:1rem;
+    margin-right: 0;
 }
 
   nav {
