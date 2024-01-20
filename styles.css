@@ -144,11 +144,19 @@ button:hover {
   fill: #4ee1a0;
 }
 
-.linked-in-icon {
-  margin-right: 1rem;
+.social-links-container {
+    z-index:5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
 }
 
 @media (max-width: 768px) {
+  header {
+    margin-top:-5.3rem;
+  }
+
   .header-container {
     flex-direction: column-reverse;
     gap: 3rem;
@@ -184,5 +192,17 @@ button:hover {
     position: absolute;
     left: 12rem;
     bottom: 2rem;
+  }
+
+  .social-links-container {
+    gap:1rem;
+}
+
+  nav {
+    flex-direction: column;
+  }
+
+  a {
+    padding: 0rem 0;
   }
 }
