@@ -153,15 +153,48 @@ button:hover {
   margin-right: 1rem;
 }
 
+.skills {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.skills-container {
+  max-width: 70rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.skills-pattern-image {
+  position: absolute;
+  top: 12rem;
+  right: -16rem;
+}
+
+.skills-grid {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.skills-grid div {
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
   header {
     margin-top: -5.8rem;
-    height: 37.5rem;
+    min-height: 37.5rem;
   }
 
   h1 {
     font-size: 4.5rem;
     line-height: 4.5rem;
+  }
+
+  .header-content-container h1 {
+    max-width: 27rem;
   }
 
   .header-image {
@@ -228,6 +261,19 @@ button:hover {
 
   a {
     padding: 0rem 0;
+  }
+
+  .skills-grid {
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .skills-pattern-image {
+    position: absolute;
+    top: 24rem;
+    right: -16rem;
   }
 }
 
