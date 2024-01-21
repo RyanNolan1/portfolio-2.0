@@ -254,6 +254,14 @@ button:hover {
   transition: 0s;
 }
 
+.mobile-image-buttons-container {
+  display: none;
+}
+
+.languages-used {
+  word-spacing: 0.8rem;
+}
+
 @media (max-width: 1024px) {
   header {
     margin-top: -5.8rem;
@@ -279,12 +287,6 @@ button:hover {
     left: 16rem;
     bottom: 3rem;
   }
-
-  .mobile-image-buttons-container {
-    display: none;
-  }
-
-
 }
 
 @media (max-width: 768px) {
