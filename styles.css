@@ -353,10 +353,6 @@ footer {
     flex-direction: column;
   }
 
-  /* a {
-    padding: 0rem 0;
-  } */
-
   .skills-grid {
     padding-top: 4rem;
     display: grid;
@@ -392,6 +388,10 @@ footer {
   }
 
   .project-image-container:hover .project-image-buttons-container {
+    display:none;
+  }
+
+  .project-buttons {
     display:none;
   }
 }
