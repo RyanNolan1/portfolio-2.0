@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <section id="container">
+      <section id="game-start-overlay">
+        <h1>
+        <section id="game-title">
+            <span id="santa-title">Santa</span>
+            <span id="vs-title">vs</span>
+            <span id="sprouts-title">Sprouts!</span>
+          </section>
+        </h1>
+        <label id="player-1-message" for="player-1-name"
+          >Player 1, enter your name and choose your marker:</label
+        >
+        <input type="text" id="player-1-name" name="player-1-name"  maxlength="14"  />
+        <form id="radio-container">
+          <label for="x-radio-input"> Santa </label>
+          <input
+            type="radio"
+            id="x-radio-input"
+            name="choose-marker"
+            value="X"
+            checked
+          />
+          <label for="o-radio-input"> Sprout </label>
+          <input
+            type="radio"
+            id="o-radio-input"
+            name="choose-marker"
+            value="O"
+          />
+        </form>
+
+        <label id="player-1-message" for="player-1-name"
+          >Choose your opponent</label
+        >
+
+        <form id="ai-container">
+          <label for="ai-input"> AI </label>
+          <input
+            type="radio"
+            id="ai-input"
+            name="choose-opponent"
+            value="AI"
+            class="opponent-radios"
+            checked
+            required
+          />
+          <label for="player-input"> Player </label>
+          <input
+            type="radio"
+            id="player-input"
+            name="choose-opponent"
+            value="Player"
+            class="opponent-radios"
+          />
+        </form>
+        <form id="difficulty-container">
+          <label for="difficulty">Choose difficulty</label>
+          <select name="choose-difficulty" id="choose-difficulty">
+            <option value="random">Random</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            <option value="impossible">Impossible</option>
+          </select>
+        </form>
+        <section id="player-2-container">
+          <label id="player-2-message" for="player-2-name"
+            >Player 2, enter your name</label
+          >
+          <input type="text" id="player-2-name" name="player-2-name" maxlength="14" />
+        </section>
+        <button id="continue-button">Continue</button>
+      </section>
+
+      <section id="game-score">
+        <section id="game-outcome-overlay">
+          <section id="game-outcome-content">
+            <p id="game-outcome-message"></p>
+            <section id="game-outcome-overlay-buttons">
+              <button id="next-round-button">Next Round</button>
+              <button id="new-game-button">New Game</button>
+            </section>
+          </section>
+        </section>
+        <p id="player-one-score"></p>
+        <p id="player-two-score"></p>
+      </section>
+
+      <section id="game-container"></section>
+    </section>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
