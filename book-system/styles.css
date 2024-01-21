@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overscroll-behavior: none;
+  -ms-overscroll-behavior: none;
+  -webkit-overscroll-behavior: none;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(99, 214, 221);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(99, 214, 221, 1) 0%,
+    rgba(230, 59, 247, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(99, 214, 221, 1) 0%,
+    rgba(230, 59, 247, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(99, 214, 221, 1) 0%,
+    rgba(230, 59, 247, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#63d6dd",endColorstr="#e63bf7",GradientType=1);
+}
+
+#container {
+  max-width: 1280px;
+  width: 90%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+#book-counter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100px;
+  width:100%;
+  max-width: 460px;
+  justify-content: space-between;
+}
+
+#target {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 10px;
+  width:100%;
+  overscroll-behavior: none;
+  -ms-overscroll-behavior: none;
+  -webkit-overscroll-behavior: none;
+}
+
+table {
+  width: 100%;
+  min-width:800px;
+  border-radius: 10px;
+  border-spacing: 0px;
+  overflow: hidden;
+}
+
+thead {
+  color: rgb(255, 255, 255);
+  background-color: #362f4b;
+}
+
+th {
+  font-weight: 100;
+  height:50px;
+}
+
+td {
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(214, 214, 214);
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:100%;
+  gap: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.library-buttons {
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #362f4b;
+  transition: 0.5s;
+}
+
+.library-buttons:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+#form-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.541);
+  visibility: hidden;
+  position: fixed;
+}
+
+#add-book-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+#close-form-button {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  fill: #362f4b;
+  align-self: right;
+  transition: 0s;
+}
+
+#close-form-button:hover {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  fill: rgba(230, 59, 247, 1);
+  align-self: right;
+  transition: 0.4s;
+}
+
+#close-form-button:hover {
+  cursor: pointer;
+}
+
+#book-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+#book-form input {
+  height: 50px;
+  text-indent: 10px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.input-area {
+  background-color: rgb(227, 227, 227);
+}
+
+#radio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.remove-button {
+  width: 100%;
+  min-height: 20px;
+  border: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.remove-button:hover {
+  width: 100%;
+  border: 0;
+  background-color: rgb(189, 189, 189);
+  cursor: pointer;
+}
+
+#submit-book {
+  display: flex;
+  font-size: 18px;
+  background: linear-gradient(90deg, #e73bf7, transparent) #63d7dd;
+  font-family: inherit;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s;
+  place-content: center;
+  border-radius: 100px;
+}
+#submit-book:hover {
+  background-color: #011dd6;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  accent-color: #232323;
+}
+
+input[type="checkbox"] {
+  accent-color: #232323;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+
+  #target {
+    overflow-x: scroll;
+    display: block;
+  }
+
+  #button-container {
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #button-container {
+    display: flex;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #book-counter-container {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
