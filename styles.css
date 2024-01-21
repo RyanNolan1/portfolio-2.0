@@ -194,6 +194,10 @@ button:hover {
     line-height: 4.5rem;
   }
 
+  .header-content-container h1 {
+    max-width: 27rem;
+  }
+
   .header-image {
     width: 20.75rem;
     height: 37.5rem;
