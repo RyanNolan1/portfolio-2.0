@@ -279,6 +279,12 @@ button:hover {
     left: 16rem;
     bottom: 3rem;
   }
+
+  .mobile-image-buttons-container {
+    display: none;
+  }
+
+
 }
 
 @media (max-width: 768px) {
@@ -354,6 +360,21 @@ button:hover {
 
   h3 {
     font-size: 2.5rem;
+  }
+
+  .mobile-image-buttons-container {
+    display: flex;
+    gap:1rem;
+  }
+
+  .mobile-image-buttons-container button {
+    border-bottom: 2px solid #4ee1a0;
+    width: fit-content;
+    padding-bottom: 0.5rem;
+  }
+
+  .project-image-container:hover .project-image-buttons-container {
+    display:none;
   }
 }
 
