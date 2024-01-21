@@ -190,6 +190,12 @@ button:hover {
   padding-bottom: 4rem;
 }
 
+.project {
+  display:flex;
+  flex-direction:column;
+  gap:.5rem;
+}
+
 .projects-and-contact {
   max-width: 70rem;
   margin: 0 auto;
@@ -208,9 +214,6 @@ button:hover {
   row-gap: 2rem;
 }
 
-.project img {
-  max-width: 100%;
-}
 
 .project-image-container {
   width: 100%;
