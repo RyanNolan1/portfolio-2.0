@@ -8,6 +8,7 @@ body {
   background-color: #151515;
   font-family: "Space Grotesk", sans-serif;
   color: rgb(255, 255, 255);
+  overflow-x: hidden;
 }
 
 nav {
