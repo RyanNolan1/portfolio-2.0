@@ -169,7 +169,6 @@ button:hover {
   position: absolute;
   top: 12rem;
   right: -16rem;
-  position: absolute;
 }
 
 .skills-grid {
@@ -269,6 +268,12 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .skills-pattern-image {
+    position: absolute;
+    top: 24rem;
+    right: -16rem;
   }
 }
 
