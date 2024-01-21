@@ -18,11 +18,8 @@ nav {
   max-width: 70rem;
   width: 90%;
   margin: 0 auto;
-}
-
-a {
-  padding: 1rem 0;
-  z-index: 2;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
 
 header {
@@ -32,6 +29,7 @@ header {
   align-items: center;
   position: relative;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .patterns-image {
@@ -57,16 +55,16 @@ p {
   color: rgb(217, 217, 217);
 }
 
-button {
+a {
   background: none;
   border: none;
   font-size: 1rem;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  transition: 0.6s;
+  transition: 0.4s;
 }
 
-button:hover {
+a:hover {
   cursor: pointer;
   color: #4ee1a0;
 }
@@ -118,9 +116,16 @@ button:hover {
 }
 
 .contact-me-button {
+  text-decoration: none;
+  color:white;
   border-bottom: 2px solid #4ee1a0;
   width: fit-content;
   padding-bottom: 0.5rem;
+  transition: 0.4s;
+}
+
+.contact-me-button:hover {
+  color:#4ee1a0;
 }
 
 .header-container {
@@ -137,6 +142,7 @@ button:hover {
   flex-grow: 1;
   font-size: 2rem;
   font-weight: 900;
+  z-index:2;
 }
 
 .social-links {
@@ -161,6 +167,7 @@ button:hover {
   position: relative;
   padding-top: 4rem;
   padding-bottom: 8rem;
+  overflow-x: hidden;
 }
 
 .skills-container {
@@ -246,6 +253,8 @@ button:hover {
 }
 
 .project-buttons {
+  text-decoration: none;
+  color:white;
   border-bottom: 2px solid #4ee1a0;
   width: fit-content;
   padding-bottom: 0.5rem;
@@ -297,7 +306,7 @@ footer {
 
 @media (max-width: 768px) {
   header {
-    margin-top: -5.3rem;
+    margin-top: -7.3rem;
   }
 
   .header-container {
@@ -345,10 +354,6 @@ footer {
     flex-direction: column;
   }
 
-  a {
-    padding: 0rem 0;
-  }
-
   .skills-grid {
     padding-top: 4rem;
     display: grid;
@@ -375,13 +380,19 @@ footer {
     gap:1rem;
   }
 
-  .mobile-image-buttons-container button {
+  .mobile-image-buttons-container a {
     border-bottom: 2px solid #4ee1a0;
     width: fit-content;
+    text-decoration: none;
+    color:white;
     padding-bottom: 0.5rem;
   }
 
   .project-image-container:hover .project-image-buttons-container {
+    display:none;
+  }
+
+  .project-buttons {
     display:none;
   }
 }
