@@ -115,9 +115,16 @@ button:hover {
 }
 
 .contact-me-button {
+  text-decoration: none;
+  color:white;
   border-bottom: 2px solid #4ee1a0;
   width: fit-content;
   padding-bottom: 0.5rem;
+  transition: 0.4s;
+}
+
+.contact-me-button:hover {
+  color:#4ee1a0;
 }
 
 .header-container {
