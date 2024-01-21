@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <section id="button-container">
+      <button class="buttons" onclick="changeGridSize()">
+        CHANGE GRID SIZE
+      </button>
+      <div class="colour-button" onchange="chooseColour()">
+        CHOOSE COLOUR <input type="color" id="colour-picker" value="#0000ff" onchange="chooseColour()"/>
+      </div>
+      <button class="buttons" onclick="rainbow()">RAINBOW</button>
+      <button class="buttons" onclick="whiteToBlack()">WHITE TO BLACK</button>
+      <button class="buttons" onclick="eraser()">ERASER</button>
+      <button class="buttons" onclick="clearGrid()">CLEAR GRID</button>
+    </section>
+    <div id="grid-container"></div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
