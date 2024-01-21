@@ -18,11 +18,8 @@ nav {
   max-width: 70rem;
   width: 90%;
   margin: 0 auto;
-}
-
-a {
-  padding: 1rem 0;
-  z-index: 2;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
 
 header {
@@ -137,6 +134,7 @@ button:hover {
   flex-grow: 1;
   font-size: 2rem;
   font-weight: 900;
+  z-index:2;
 }
 
 .social-links {
@@ -297,7 +295,7 @@ footer {
 
 @media (max-width: 768px) {
   header {
-    margin-top: -5.3rem;
+    margin-top: -7.3rem;
   }
 
   .header-container {
@@ -345,9 +343,9 @@ footer {
     flex-direction: column;
   }
 
-  a {
+  /* a {
     padding: 0rem 0;
-  }
+  } */
 
   .skills-grid {
     padding-top: 4rem;
