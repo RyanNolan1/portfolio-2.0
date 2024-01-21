@@ -347,6 +347,14 @@ button:hover {
     top: 24rem;
     right: -16rem;
   }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 375px) {
