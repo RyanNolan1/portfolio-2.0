@@ -8,7 +8,6 @@ body {
   background-color: #151515;
   font-family: "Space Grotesk", sans-serif;
   color: rgb(255, 255, 255);
-  overflow-x: hidden;
 }
 
 nav {
@@ -30,6 +29,7 @@ header {
   align-items: center;
   position: relative;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .patterns-image {
@@ -167,6 +167,7 @@ button:hover {
   position: relative;
   padding-top: 4rem;
   padding-bottom: 8rem;
+  overflow-x: hidden;
 }
 
 .skills-container {
