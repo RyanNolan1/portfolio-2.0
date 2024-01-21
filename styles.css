@@ -47,6 +47,10 @@ h1 {
   letter-spacing: -0.16rem;
 }
 
+h3 {
+  font-size: 5.5rem;
+}
+
 p {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -182,6 +186,82 @@ button:hover {
   text-align: center;
 }
 
+.projects {
+  padding-bottom: 8rem;
+}
+
+.project {
+  display:flex;
+  flex-direction:column;
+  gap:.5rem;
+}
+
+.projects-and-contact {
+  max-width: 70rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4rem;
+  width:90%;
+}
+
+.projects-container {
+  margin: 0 auto;
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 2rem;
+  width:90%;
+}
+
+
+.project-image-container {
+  width: 100%;
+  aspect-ratio: 1.5675 / 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-image-buttons-container {
+  height:100%;
+  transition:0.4s;
+  opacity: none;
+}
+
+.project-image-container:hover .project-image-buttons-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.project-image-container:hover .project-buttons {
+  opacity: 1;
+}
+
+.project-buttons {
+  border-bottom: 2px solid #4ee1a0;
+  width: fit-content;
+  padding-bottom: 0.5rem;
+  display: hidden;
+  opacity: 0;
+  transition: 0s;
+}
+
+.mobile-image-buttons-container {
+  display: none;
+}
+
+.languages-used {
+  word-spacing: 0.8rem;
+}
+
 @media (max-width: 1024px) {
   header {
     margin-top: -5.8rem;
@@ -274,6 +354,29 @@ button:hover {
     position: absolute;
     top: 24rem;
     right: -16rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .mobile-image-buttons-container {
+    display: flex;
+    gap:1rem;
+  }
+
+  .mobile-image-buttons-container button {
+    border-bottom: 2px solid #4ee1a0;
+    width: fit-content;
+    padding-bottom: 0.5rem;
+  }
+
+  .project-image-container:hover .project-image-buttons-container {
+    display:none;
   }
 }
 
