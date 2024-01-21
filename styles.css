@@ -55,16 +55,16 @@ p {
   color: rgb(217, 217, 217);
 }
 
-button {
+a {
   background: none;
   border: none;
   font-size: 1rem;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  transition: 0.6s;
+  transition: 0.4s;
 }
 
-button:hover {
+a:hover {
   cursor: pointer;
   color: #4ee1a0;
 }
