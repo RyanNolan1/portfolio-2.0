@@ -212,7 +212,13 @@ button:hover {
     max-width:100%;
 }
 
-
+.project-image-container {
+  width:100%;
+  aspect-ratio: 1.5675 / 1;
+  background-size:cover;
+  background-position: center;
+  background-image: url("./images/tic-tac-toe.png");
+}
 
 @media (max-width: 1024px) {
   header {
