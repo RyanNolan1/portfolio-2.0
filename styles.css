@@ -47,6 +47,10 @@ h1 {
   letter-spacing: -0.16rem;
 }
 
+h3 {
+    font-size: 5.5rem;
+}
+
 p {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -180,6 +184,14 @@ button:hover {
 
 .skills-grid div {
   text-align: center;
+}
+
+.projects-and-contact {
+    max-width:70rem;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
