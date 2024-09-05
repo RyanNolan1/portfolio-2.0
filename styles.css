@@ -45,6 +45,10 @@ h1 {
   letter-spacing: -0.16rem;
 }
 
+h2 {
+  font-size:3rem;
+}
+
 h3 {
   font-size: 5.5rem;
 }
@@ -190,7 +194,7 @@ a:hover {
 }
 
 .skills-grid div {
-  text-align: center;
+  text-align: left;
 }
 
 .projects {
@@ -335,6 +339,10 @@ footer {
     text-align: center;
   }
 
+  h2 {
+    font-size:2rem;
+  }
+
   .header-image {
     width: 16rem;
     height: 26rem;
@@ -363,11 +371,7 @@ footer {
 
   .skills-pattern-image {
     position: absolute;
-<<<<<<< HEAD
     top: 20rem;
-=======
-    top: 24rem;
->>>>>>> 45e1ba5 (this will add the project files)
     right: -16rem;
   }
 
@@ -398,6 +402,10 @@ footer {
 
   .project-buttons {
     display:none;
+  }
+
+  .skills-grid div {
+    text-align: center;
   }
 }
 
