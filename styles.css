@@ -264,7 +264,7 @@ a:hover {
   padding-bottom: 0.5rem;
   display: hidden;
   opacity: 0;
-  transition: 0s;
+  transition: 0.3s;
 }
 
 .mobile-image-buttons-container {
