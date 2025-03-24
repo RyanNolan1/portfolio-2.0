@@ -306,6 +306,10 @@ footer {
     left: 16rem;
     bottom: 3rem;
   }
+
+  .skills {
+    padding-bottom:4rem;
+  }
 }
 
 @media (max-width: 768px) {
