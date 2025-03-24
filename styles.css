@@ -170,7 +170,7 @@ a:hover {
 .skills {
   position: relative;
   padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
   overflow-x: hidden;
 }
 
@@ -305,10 +305,6 @@ footer {
     position: absolute;
     left: 16rem;
     bottom: 3rem;
-  }
-
-  .skills {
-    padding-bottom:4rem;
   }
 }
 
